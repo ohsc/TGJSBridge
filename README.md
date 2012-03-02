@@ -1,8 +1,7 @@
 TGJSBridge
 =============
 TGJSBridge is a lightweight javascript bridge to cocoa. 
-TGJSBridge is iOS4 and iPad compatible and released under the BSD license(see TGJSBridge.h)
-
+TGJSBridge is iOS4 and iPad compatible.
 Usage in objective-c
 ----------------------
 ### Init jsBridge
