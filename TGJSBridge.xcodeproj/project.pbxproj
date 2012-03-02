@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A719A4E21500AD3900B25BA1 /* TGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A719A4E01500AD3900B25BA1 /* TGJSBridge.m */; };
+		A719A4E31500AD7D00B25BA1 /* TGJSBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = A719A4DF1500AD3900B25BA1 /* TGJSBridge.js */; };
+		A75879491500A96E002B6E9C /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879311500A96E002B6E9C /* NSObject+SBJson.m */; };
+		A758794A1500A96E002B6E9C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879341500A96E002B6E9C /* SBJsonParser.m */; };
+		A758794B1500A96E002B6E9C /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879361500A96E002B6E9C /* SBJsonStreamParser.m */; };
+		A758794C1500A96E002B6E9C /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879381500A96E002B6E9C /* SBJsonStreamParserAccumulator.m */; };
+		A758794D1500A96E002B6E9C /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A758793A1500A96E002B6E9C /* SBJsonStreamParserAdapter.m */; };
+		A758794E1500A96E002B6E9C /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = A758793C1500A96E002B6E9C /* SBJsonStreamParserState.m */; };
+		A758794F1500A96E002B6E9C /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A758793E1500A96E002B6E9C /* SBJsonStreamWriter.m */; };
+		A75879501500A96E002B6E9C /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879401500A96E002B6E9C /* SBJsonStreamWriterAccumulator.m */; };
+		A75879511500A96E002B6E9C /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879421500A96E002B6E9C /* SBJsonStreamWriterState.m */; };
+		A75879521500A96E002B6E9C /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879441500A96E002B6E9C /* SBJsonTokeniser.m */; };
+		A75879531500A96E002B6E9C /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879461500A96E002B6E9C /* SBJsonUTF8Stream.m */; };
+		A75879541500A96E002B6E9C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = A75879481500A96E002B6E9C /* SBJsonWriter.m */; };
+		A759BB9214FF734800E75CBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759BB9114FF734800E75CBB /* UIKit.framework */; };
+		A759BB9414FF734800E75CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759BB9314FF734800E75CBB /* Foundation.framework */; };
+		A759BB9614FF734800E75CBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759BB9514FF734800E75CBB /* CoreGraphics.framework */; };
+		A759BB9C14FF734800E75CBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A759BB9A14FF734800E75CBB /* InfoPlist.strings */; };
+		A759BB9E14FF734800E75CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A759BB9D14FF734800E75CBB /* main.m */; };
+		A759BBA214FF734800E75CBB /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A759BBA114FF734800E75CBB /* TGAppDelegate.m */; };
+		A759BBDA14FF7E8B00E75CBB /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A759BBD914FF7E8B00E75CBB /* test.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A719A4DE1500AD3900B25BA1 /* TGJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGJSBridge.h; sourceTree = "<group>"; };
+		A719A4DF1500AD3900B25BA1 /* TGJSBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TGJSBridge.js; sourceTree = "<group>"; };
+		A719A4E01500AD3900B25BA1 /* TGJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGJSBridge.m; sourceTree = "<group>"; };
+		A758792F1500A96E002B6E9C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		A75879301500A96E002B6E9C /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		A75879311500A96E002B6E9C /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		A75879321500A96E002B6E9C /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		A75879331500A96E002B6E9C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		A75879341500A96E002B6E9C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		A75879351500A96E002B6E9C /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		A75879361500A96E002B6E9C /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		A75879371500A96E002B6E9C /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		A75879381500A96E002B6E9C /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		A75879391500A96E002B6E9C /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		A758793A1500A96E002B6E9C /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		A758793B1500A96E002B6E9C /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		A758793C1500A96E002B6E9C /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		A758793D1500A96E002B6E9C /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		A758793E1500A96E002B6E9C /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		A758793F1500A96E002B6E9C /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		A75879401500A96E002B6E9C /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		A75879411500A96E002B6E9C /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		A75879421500A96E002B6E9C /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		A75879431500A96E002B6E9C /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		A75879441500A96E002B6E9C /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		A75879451500A96E002B6E9C /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		A75879461500A96E002B6E9C /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		A75879471500A96E002B6E9C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		A75879481500A96E002B6E9C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		A759BB8D14FF734800E75CBB /* TGJSBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGJSBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A759BB9114FF734800E75CBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A759BB9314FF734800E75CBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A759BB9514FF734800E75CBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A759BB9914FF734800E75CBB /* TGJSBridge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TGJSBridge-Info.plist"; sourceTree = "<group>"; };
+		A759BB9B14FF734800E75CBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A759BB9D14FF734800E75CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A759BB9F14FF734800E75CBB /* TGJSBridge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGJSBridge-Prefix.pch"; sourceTree = "<group>"; };
+		A759BBA014FF734800E75CBB /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		A759BBA114FF734800E75CBB /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		A759BBD914FF7E8B00E75CBB /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A759BB8A14FF734800E75CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A759BB9214FF734800E75CBB /* UIKit.framework in Frameworks */,
+				A759BB9414FF734800E75CBB /* Foundation.framework in Frameworks */,
+				A759BB9614FF734800E75CBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A719A4DD1500AD3900B25BA1 /* TGJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A719A4DE1500AD3900B25BA1 /* TGJSBridge.h */,
+				A719A4DF1500AD3900B25BA1 /* TGJSBridge.js */,
+				A719A4E01500AD3900B25BA1 /* TGJSBridge.m */,
+			);
+			path = TGJSBridge;
+			sourceTree = "<group>";
+		};
+		A758792E1500A96E002B6E9C /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				A758792F1500A96E002B6E9C /* JSON.h */,
+				A75879301500A96E002B6E9C /* NSObject+SBJson.h */,
+				A75879311500A96E002B6E9C /* NSObject+SBJson.m */,
+				A75879321500A96E002B6E9C /* SBJson.h */,
+				A75879331500A96E002B6E9C /* SBJsonParser.h */,
+				A75879341500A96E002B6E9C /* SBJsonParser.m */,
+				A75879351500A96E002B6E9C /* SBJsonStreamParser.h */,
+				A75879361500A96E002B6E9C /* SBJsonStreamParser.m */,
+				A75879371500A96E002B6E9C /* SBJsonStreamParserAccumulator.h */,
+				A75879381500A96E002B6E9C /* SBJsonStreamParserAccumulator.m */,
+				A75879391500A96E002B6E9C /* SBJsonStreamParserAdapter.h */,
+				A758793A1500A96E002B6E9C /* SBJsonStreamParserAdapter.m */,
+				A758793B1500A96E002B6E9C /* SBJsonStreamParserState.h */,
+				A758793C1500A96E002B6E9C /* SBJsonStreamParserState.m */,
+				A758793D1500A96E002B6E9C /* SBJsonStreamWriter.h */,
+				A758793E1500A96E002B6E9C /* SBJsonStreamWriter.m */,
+				A758793F1500A96E002B6E9C /* SBJsonStreamWriterAccumulator.h */,
+				A75879401500A96E002B6E9C /* SBJsonStreamWriterAccumulator.m */,
+				A75879411500A96E002B6E9C /* SBJsonStreamWriterState.h */,
+				A75879421500A96E002B6E9C /* SBJsonStreamWriterState.m */,
+				A75879431500A96E002B6E9C /* SBJsonTokeniser.h */,
+				A75879441500A96E002B6E9C /* SBJsonTokeniser.m */,
+				A75879451500A96E002B6E9C /* SBJsonUTF8Stream.h */,
+				A75879461500A96E002B6E9C /* SBJsonUTF8Stream.m */,
+				A75879471500A96E002B6E9C /* SBJsonWriter.h */,
+				A75879481500A96E002B6E9C /* SBJsonWriter.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		A759BB8214FF734800E75CBB = {
+			isa = PBXGroup;
+			children = (
+				A758792E1500A96E002B6E9C /* SBJson */,
+				A759BB9714FF734800E75CBB /* TGJSBridge */,
+				A759BB9014FF734800E75CBB /* Frameworks */,
+				A759BB8E14FF734800E75CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A759BB8E14FF734800E75CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A759BB8D14FF734800E75CBB /* TGJSBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A759BB9014FF734800E75CBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A759BB9114FF734800E75CBB /* UIKit.framework */,
+				A759BB9314FF734800E75CBB /* Foundation.framework */,
+				A759BB9514FF734800E75CBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A759BB9714FF734800E75CBB /* TGJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A719A4DD1500AD3900B25BA1 /* TGJSBridge */,
+				A759BB9814FF734800E75CBB /* Supporting Files */,
+				A759BBD914FF7E8B00E75CBB /* test.html */,
+				A759BBA014FF734800E75CBB /* TGAppDelegate.h */,
+				A759BBA114FF734800E75CBB /* TGAppDelegate.m */,
+			);
+			path = TGJSBridge;
+			sourceTree = "<group>";
+		};
+		A759BB9814FF734800E75CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A759BB9914FF734800E75CBB /* TGJSBridge-Info.plist */,
+				A759BB9A14FF734800E75CBB /* InfoPlist.strings */,
+				A759BB9D14FF734800E75CBB /* main.m */,
+				A759BB9F14FF734800E75CBB /* TGJSBridge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A759BB8C14FF734800E75CBB /* TGJSBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A759BBAE14FF734800E75CBB /* Build configuration list for PBXNativeTarget "TGJSBridge" */;
+			buildPhases = (
+				A759BB8914FF734800E75CBB /* Sources */,
+				A759BB8A14FF734800E75CBB /* Frameworks */,
+				A759BB8B14FF734800E75CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGJSBridge;
+			productName = TGJSBridge;
+			productReference = A759BB8D14FF734800E75CBB /* TGJSBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A759BB8414FF734800E75CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A759BB8714FF734800E75CBB /* Build configuration list for PBXProject "TGJSBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A759BB8214FF734800E75CBB;
+			productRefGroup = A759BB8E14FF734800E75CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A759BB8C14FF734800E75CBB /* TGJSBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A759BB8B14FF734800E75CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A719A4E31500AD7D00B25BA1 /* TGJSBridge.js in Resources */,
+				A759BB9C14FF734800E75CBB /* InfoPlist.strings in Resources */,
+				A759BBDA14FF7E8B00E75CBB /* test.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A759BB8914FF734800E75CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A759BB9E14FF734800E75CBB /* main.m in Sources */,
+				A759BBA214FF734800E75CBB /* TGAppDelegate.m in Sources */,
+				A75879491500A96E002B6E9C /* NSObject+SBJson.m in Sources */,
+				A758794A1500A96E002B6E9C /* SBJsonParser.m in Sources */,
+				A758794B1500A96E002B6E9C /* SBJsonStreamParser.m in Sources */,
+				A758794C1500A96E002B6E9C /* SBJsonStreamParserAccumulator.m in Sources */,
+				A758794D1500A96E002B6E9C /* SBJsonStreamParserAdapter.m in Sources */,
+				A758794E1500A96E002B6E9C /* SBJsonStreamParserState.m in Sources */,
+				A758794F1500A96E002B6E9C /* SBJsonStreamWriter.m in Sources */,
+				A75879501500A96E002B6E9C /* SBJsonStreamWriterAccumulator.m in Sources */,
+				A75879511500A96E002B6E9C /* SBJsonStreamWriterState.m in Sources */,
+				A75879521500A96E002B6E9C /* SBJsonTokeniser.m in Sources */,
+				A75879531500A96E002B6E9C /* SBJsonUTF8Stream.m in Sources */,
+				A75879541500A96E002B6E9C /* SBJsonWriter.m in Sources */,
+				A719A4E21500AD3900B25BA1 /* TGJSBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A759BB9A14FF734800E75CBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A759BB9B14FF734800E75CBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A759BBAC14FF734800E75CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A759BBAD14FF734800E75CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A759BBAF14FF734800E75CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGJSBridge/TGJSBridge-Prefix.pch";
+				INFOPLIST_FILE = "TGJSBridge/TGJSBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A759BBB014FF734800E75CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGJSBridge/TGJSBridge-Prefix.pch";
+				INFOPLIST_FILE = "TGJSBridge/TGJSBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A759BB8714FF734800E75CBB /* Build configuration list for PBXProject "TGJSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A759BBAC14FF734800E75CBB /* Debug */,
+				A759BBAD14FF734800E75CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A759BBAE14FF734800E75CBB /* Build configuration list for PBXNativeTarget "TGJSBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A759BBAF14FF734800E75CBB /* Debug */,
+				A759BBB014FF734800E75CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A759BB8414FF734800E75CBB /* Project object */;
+}
