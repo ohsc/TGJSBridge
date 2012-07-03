@@ -7,15 +7,30 @@
 //
 
 (function(context){
-
+    function bridgeCall(src,callback) {
+		iframe = document.createElement("iframe");
+		iframe.style.display = "none";
+		iframe.src = src;
+		var cleanFn = function(state){
+		   console.log(state) 
+		    try {
+		        iframe.parentNode.removeChild(iframe);
+		    } catch (error) {}
+		    if(callback) callback();
+		};
+        iframe.onload = cleanFn;
+		document.documentElement.appendChild(iframe);
+	}
+	
     function JSBridge()
     {
         this.callbackDict = {};
         this.notificationIdCount = 0;
         this.notificationDict = {};
         
+        var that = this;
         context.document.addEventListener('DOMContentLoaded',function(){
-            window.location.href= 'jsbridge://NotificationReady';
+            bridgeCall('jsbridge://NotificationReady',that.trigger('jsBridgeReady',{}));
         },false);
     }
 
@@ -27,7 +42,7 @@
             
             this.notificationDict[this.notificationIdCount] = {name:name, userInfo:userInfo};
 
-            window.location.href= 'jsbridge://PostNotificationWithId-' + this.notificationIdCount;
+            bridgeCall('jsbridge://PostNotificationWithId-' + this.notificationIdCount);
         },
         //oc获取消息数据
         popNotificationObject: function(notificationId){
