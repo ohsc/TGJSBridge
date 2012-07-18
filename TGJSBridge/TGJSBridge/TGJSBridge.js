@@ -36,7 +36,7 @@
 
     JSBridge.prototype = {
         constructor: JSBridge,
-        //js向oc发送消息
+        //send notification to WebView
         postNotification: function(name, userInfo){
             this.notificationIdCount++;
             
@@ -44,13 +44,13 @@
 
             bridgeCall('jsbridge://PostNotificationWithId-' + this.notificationIdCount);
         },
-        //oc获取消息数据
+        //pop the notification in the cache
         popNotificationObject: function(notificationId){
             var result = JSON.stringify(this.notificationDict[notificationId]);
             delete this.notificationDict[notificationId];
             return result;
         },
-        //oc向js发送消息
+        //trigger the js event
         trigger: function(name, userInfo) {
             if(this.callbackDict[name]){
                 var callList = this.callbackDict[name];
@@ -60,21 +60,19 @@
                 }
             }
         },
-        //绑定消息
+        //bind js event
         bind: function(name, callback){
             if(!this.callbackDict[name]){
-                //创建对应数组
+                //create the array
                 this.callbackDict[name] = [];
             }
             this.callbackDict[name].push(callback);
         },
-        //解除绑定
+        //unbind js event
         unbind: function(name, callback){
-            //如果只提供消息名，则删除整个对应的数组
             if(arguments.length == 1){
                 delete this.callbackDict[name];
             } else if(arguments.length > 1) {
-                //搜索相应的callback，并删除
                 if(this.callbackDict[name]){
                     var callList = this.callbackDict[name];
                     
@@ -85,7 +83,6 @@
                         }
                     }
                 }
-                //如果数组为空，则删除
                 if(this.callbackDict[name].length == 0){
                     delete this.callbackDict[name];
                 }
