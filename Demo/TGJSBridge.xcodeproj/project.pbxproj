@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A719A4E21500AD3900B25BA1 /* TGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A719A4E01500AD3900B25BA1 /* TGJSBridge.m */; };
-		A719A4E31500AD7D00B25BA1 /* TGJSBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = A719A4DF1500AD3900B25BA1 /* TGJSBridge.js */; };
 		A759BB9214FF734800E75CBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759BB9114FF734800E75CBB /* UIKit.framework */; };
 		A759BB9414FF734800E75CBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759BB9314FF734800E75CBB /* Foundation.framework */; };
 		A759BB9614FF734800E75CBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759BB9514FF734800E75CBB /* CoreGraphics.framework */; };
@@ -16,13 +14,12 @@
 		A759BB9E14FF734800E75CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A759BB9D14FF734800E75CBB /* main.m */; };
 		A759BBA214FF734800E75CBB /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A759BBA114FF734800E75CBB /* TGAppDelegate.m */; };
 		A759BBDA14FF7E8B00E75CBB /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = A759BBD914FF7E8B00E75CBB /* test.html */; };
+		A7F21EAB164D411B0069C8D8 /* TGJSBridge.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A7F21EA8164D411B0069C8D8 /* TGJSBridge.bundle */; };
+		A7F21EAC164D411B0069C8D8 /* TGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F21EAA164D411B0069C8D8 /* TGJSBridge.m */; };
 		A7FF399F15B6E9B3002A5492 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FF399E15B6E9B3002A5492 /* JSONKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A719A4DE1500AD3900B25BA1 /* TGJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGJSBridge.h; sourceTree = "<group>"; };
-		A719A4DF1500AD3900B25BA1 /* TGJSBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TGJSBridge.js; sourceTree = "<group>"; };
-		A719A4E01500AD3900B25BA1 /* TGJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGJSBridge.m; sourceTree = "<group>"; };
 		A759BB8D14FF734800E75CBB /* TGJSBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGJSBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A759BB9114FF734800E75CBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A759BB9314FF734800E75CBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,6 +31,9 @@
 		A759BBA014FF734800E75CBB /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
 		A759BBA114FF734800E75CBB /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
 		A759BBD914FF7E8B00E75CBB /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		A7F21EA8164D411B0069C8D8 /* TGJSBridge.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TGJSBridge.bundle; sourceTree = "<group>"; };
+		A7F21EA9164D411B0069C8D8 /* TGJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGJSBridge.h; sourceTree = "<group>"; };
+		A7F21EAA164D411B0069C8D8 /* TGJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGJSBridge.m; sourceTree = "<group>"; };
 		A7FF399D15B6E9B3002A5492 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		A7FF399E15B6E9B3002A5492 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,16 +52,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A719A4DD1500AD3900B25BA1 /* TGJSBridge */ = {
-			isa = PBXGroup;
-			children = (
-				A719A4DE1500AD3900B25BA1 /* TGJSBridge.h */,
-				A719A4DF1500AD3900B25BA1 /* TGJSBridge.js */,
-				A719A4E01500AD3900B25BA1 /* TGJSBridge.m */,
-			);
-			path = TGJSBridge;
-			sourceTree = "<group>";
-		};
 		A759BB8214FF734800E75CBB = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +82,8 @@
 		A759BB9714FF734800E75CBB /* TGJSBridge */ = {
 			isa = PBXGroup;
 			children = (
+				A7F21EA7164D411B0069C8D8 /* TGJSBridge */,
 				A7FF399C15B6E9B3002A5492 /* JSONKit */,
-				A719A4DD1500AD3900B25BA1 /* TGJSBridge */,
 				A759BB9814FF734800E75CBB /* Supporting Files */,
 				A759BBD914FF7E8B00E75CBB /* test.html */,
 				A759BBA014FF734800E75CBB /* TGAppDelegate.h */,
@@ -111,6 +101,17 @@
 				A759BB9F14FF734800E75CBB /* TGJSBridge-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7F21EA7164D411B0069C8D8 /* TGJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A7F21EA8164D411B0069C8D8 /* TGJSBridge.bundle */,
+				A7F21EA9164D411B0069C8D8 /* TGJSBridge.h */,
+				A7F21EAA164D411B0069C8D8 /* TGJSBridge.m */,
+			);
+			name = TGJSBridge;
+			path = ../../TGJSBridge;
 			sourceTree = "<group>";
 		};
 		A7FF399C15B6E9B3002A5492 /* JSONKit */ = {
@@ -173,9 +174,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A719A4E31500AD7D00B25BA1 /* TGJSBridge.js in Resources */,
 				A759BB9C14FF734800E75CBB /* InfoPlist.strings in Resources */,
 				A759BBDA14FF7E8B00E75CBB /* test.html in Resources */,
+				A7F21EAB164D411B0069C8D8 /* TGJSBridge.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,8 +189,8 @@
 			files = (
 				A759BB9E14FF734800E75CBB /* main.m in Sources */,
 				A759BBA214FF734800E75CBB /* TGAppDelegate.m in Sources */,
-				A719A4E21500AD3900B25BA1 /* TGJSBridge.m in Sources */,
 				A7FF399F15B6E9B3002A5492 /* JSONKit.m in Sources */,
+				A7F21EAC164D411B0069C8D8 /* TGJSBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
