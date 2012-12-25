@@ -33,6 +33,10 @@ Usage in webview
 
     jsBridge.unbind('test',callbackHandler);
 
+### Set jsBridge_ready to true after listeners ready
+
+    window.jsBridge_ready = true;
+
 LICENSE
 ----------------------
 Copyright (c) 2012 Chao Shen(Hangzhou Jiuyan Technology Co., Ltd.). This software is licensed under the BSD License.

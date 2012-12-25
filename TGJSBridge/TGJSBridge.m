@@ -67,7 +67,7 @@
 
 - (BOOL)isReadyForWebView:(UIWebView*)webView
 {
-    return [[webView stringByEvaluatingJavaScriptFromString:@"window['jsBridge']?'true':'false'"] isEqualToString:@"true"];
+    return [[webView stringByEvaluatingJavaScriptFromString:@"window['jsBridge_ready']?'true':'false'"] isEqualToString:@"true"];
 }
 
 - (void)postNotificationName:(NSString *)name
