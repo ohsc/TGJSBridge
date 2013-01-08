@@ -1,8 +1,10 @@
-TGJSBridge
-=============
 THIS PROJECT IS NO LONGER UNDER ACTIVE DEVELOPMENT.
 
 You may consider this project alternativelly, https://github.com/marcuswestin/WebViewJavascriptBridge
+
+
+TGJSBridge
+=============
 
 TGJSBridge is a lightweight javascript bridge to cocoa. 
 TGJSBridge is iOS4 and iPad compatible.
